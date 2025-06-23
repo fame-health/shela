@@ -362,91 +362,227 @@
 </section>
 
 
-<!-- Understanding Diversity Section -->
-<section id="diversity" class="py-24 bg-gradient-to-b from-gray-50 to-white">
-    <div class="container mx-auto px-6">
-        <div class="text-center mb-20 animate-fade-in">
-            <h4 class="text-3xl font-extrabold text-gray-900 mb-6 bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-purple-600">Mengenal Perbedaan: Orientasi Seksual, Identitas Gender, dan Perilaku Seksual</h4>
-            <div class="w-32 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mx-auto mb-8"></div>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Setiap orang itu unik. Yuk, pelajari perbedaan orientasi seksual, identitas gender, dan perilaku seksual secara singkat dan jelas!
+<section id="diversity" class="py-20 bg-gradient-to-br from-slate-50 via-purple-50/30 to-pink-50/40 relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-pink-200/20 to-purple-200/20 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-blue-200/20 to-indigo-200/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-r from-violet-200/10 to-fuchsia-200/10 rounded-full blur-2xl animate-spin" style="animation-duration: 20s;"></div>
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10">
+        <!-- Header Section -->
+        <div class="text-center mb-16 opacity-0 animate-fadeInUp">
+            <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-2xl mb-6 shadow-2xl">
+                <i class="fas fa-heart text-white text-2xl"></i>
+            </div>
+            <h4 class="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 mb-6 leading-tight">
+                <span class="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
+                    Mengenal Perbedaan
+                </span>
+            </h4>
+            <div class="flex items-center justify-center mb-6">
+                <div class="h-1 w-12 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full"></div>
+                <div class="h-1 w-6 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-full mx-2"></div>
+                <div class="h-1 w-12 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full"></div>
+            </div>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-medium">
+                Orientasi Seksual, Identitas Gender, dan Perilaku Seksual
+            </p>
+            <p class="text-base text-gray-500 max-w-2xl mx-auto mt-4">
+                Setiap orang itu unik. Yuk, pelajari perbedaan ini secara singkat dan jelas!
             </p>
         </div>
 
-        <div class="bg-white p-10 rounded-3xl shadow-2xl hover:shadow-3xl transition-shadow duration-500 animate-slide-up max-w-4xl mx-auto">
-            <div class="space-y-10">
-                <!-- Orientasi Seksual -->
-                <div class="flex items-start group">
-                    <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mr-6 mt-1 transition-transform duration-300 group-hover:scale-110">
-                        <i class="fas fa-heart text-pink-500 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3">1. Apa Itu Orientasi Seksual?</h3>
-                        <p class="text-gray-600 leading-relaxed">Orientasi seksual adalah tentang kepada siapa seseorang merasa tertarik secara emosional, romantis, atau seksual.</p>
-                        <p class="text-gray-600 font-semibold mt-3">Beberapa contoh orientasi seksual:</p>
-                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                            <li>Heteroseksual: tertarik pada lawan jenis</li>
-                            <li>Homoseksual: tertarik pada sesama jenis</li>
-                            <li>Biseksual: tertarik pada laki-laki dan perempuan</li>
-                            <li>Aseksual: tidak tertarik secara seksual pada siapa pun</li>
-                        </ul>
+        <!-- Main Content Cards -->
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Card 1: Orientasi Seksual -->
+                <div class="group bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 opacity-0 animate-fadeInUp" style="animation-delay: 0.2s;">
+                    <div class="flex flex-col h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <i class="fas fa-heart text-white text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <span class="text-sm font-bold text-pink-600 uppercase tracking-wide">Konsep 01</span>
+                                <h3 class="text-2xl font-bold text-gray-900">Orientasi Seksual</h3>
+                            </div>
+                        </div>
+
+                        <p class="text-gray-600 text-base leading-relaxed mb-6 flex-grow">
+                            Tentang kepada siapa seseorang merasa tertarik secara emosional, romantis, atau seksual.
+                        </p>
+
+                        <div class="space-y-3">
+                            <p class="font-semibold text-gray-800 mb-3">Contohnya:</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center p-3 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-pink-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Heteroseksual:</strong> tertarik pada lawan jenis</span>
+                                </div>
+                                <div class="flex items-center p-3 bg-gradient-to-r from-purple-50 to-violet-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Homoseksual:</strong> tertarik pada sesama jenis</span>
+                                </div>
+                                <div class="flex items-center p-3 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Biseksual:</strong> tertarik pada laki-laki dan perempuan</span>
+                                </div>
+                                <div class="flex items-center p-3 bg-gradient-to-r from-gray-50 to-slate-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-gray-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Aseksual:</strong> tidak tertarik secara seksual</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Identitas Gender -->
-                <div class="flex items-start group">
-                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-6 mt-1 transition-transform duration-300 group-hover:scale-110">
-                        <i class="fas fa-user text-purple-500 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3">2. Apa Itu Identitas Gender?</h3>
-                        <p class="text-gray-600 leading-relaxed">Identitas gender adalah bagaimana seseorang mengenali dan merasa tentang dirinya sendiri dalam hal gender.</p>
-                        <p class="text-gray-600 font-semibold mt-3">Contohnya:</p>
-                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                            <li>Cisgender: merasa identitas gendernya sesuai dengan jenis kelamin saat lahir</li>
-                            <li>Transgender: merasa identitas gendernya berbeda dari jenis kelamin saat lahir</li>
-                            <li>Non-biner: merasa tidak sepenuhnya laki-laki atau perempuan</li>
-                        </ul>
-                    </div>
-                </div>
+                <!-- Card 2: Identitas Gender -->
+                <div class="group bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 opacity-0 animate-fadeInUp" style="animation-delay: 0.4s;">
+                    <div class="flex flex-col h-full">
+                        <div class="flex items-center mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                <i class="fas fa-user text-white text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <span class="text-sm font-bold text-purple-600 uppercase tracking-wide">Konsep 02</span>
+                                <h3 class="text-2xl font-bold text-gray-900">Identitas Gender</h3>
+                            </div>
+                        </div>
 
-                <!-- Perilaku Seksual -->
-                <div class="flex items-start group">
-                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-6 mt-1 transition-transform duration-300 group-hover:scale-110">
-                        <i class="fas fa-walking text-blue-500 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3">3. Apa Itu Perilaku Seksual?</h3>
-                        <p class="text-gray-600 leading-relaxed">Perilaku seksual adalah tindakan atau aktivitas yang dilakukan seseorang yang berkaitan dengan seksualitas.</p>
-                        <p class="text-gray-600 font-semibold mt-3">Penting untuk diketahui:</p>
-                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                            <li>Perilaku seksual tidak selalu mencerminkan identitas gender atau orientasi seksual.</li>
-                            <li>Setiap orang punya pilihan untuk melakukan atau tidak melakukan aktivitas seksual.</li>
-                        </ul>
-                    </div>
-                </div>
+                        <p class="text-gray-600 text-base leading-relaxed mb-6 flex-grow">
+                            Bagaimana seseorang mengenali dan merasa tentang dirinya sendiri dalam hal gender.
+                        </p>
 
-                <!-- Kenapa Ini Penting -->
-                <div class="flex items-start group">
-                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-6 mt-1 transition-transform duration-300 group-hover:scale-110">
-                        <i class="fas fa-lightbulb text-green-500 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-3">Kenapa Ini Penting?</h3>
-                        <p class="text-gray-600 leading-relaxed">Dengan memahami perbedaan ini, kita bisa:</p>
-                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                            <li>Menghindari kesalahpahaman</li>
-                            <li>Membangun sikap saling menghargai</li>
-                            <li>Mengurangi stigma dan diskriminasi</li>
-                        </ul>
-                        <p class="text-gray-600 mt-4 leading-relaxed">Setiap remaja berhak mendapatkan edukasi yang sehat, netral, dan berdasarkan ilmu. Yuk, jadi generasi yang terbuka dan peduli satu sama lain! 🌈</p>
+                        <div class="space-y-3">
+                            <p class="font-semibold text-gray-800 mb-3">Contohnya:</p>
+                            <div class="space-y-2">
+                                <div class="flex items-center p-3 bg-gradient-to-r from-purple-50 to-violet-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Cisgender:</strong> identitas sesuai jenis kelamin lahir</span>
+                                </div>
+                                <div class="flex items-center p-3 bg-gradient-to-r from-indigo-50 to-blue-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-indigo-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Transgender:</strong> identitas berbeda dari kelamin lahir</span>
+                                </div>
+                                <div class="flex items-center p-3 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl">
+                                    <div class="w-2 h-2 bg-teal-500 rounded-full mr-3"></div>
+                                    <span class="text-sm text-gray-700"><strong>Non-biner:</strong> tidak sepenuhnya laki-laki/perempuan</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-10">
+
+            <!-- Card 3: Perilaku Seksual -->
+            <div class="group bg-white/80 backdrop-blur-sm p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 mb-8 opacity-0 animate-fadeInUp" style="animation-delay: 0.6s;">
+                <div class="flex items-center mb-6">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-walking text-white text-xl"></i>
+                    </div>
+                    <div class="ml-4">
+                        <span class="text-sm font-bold text-blue-600 uppercase tracking-wide">Konsep 03</span>
+                        <h3 class="text-2xl font-bold text-gray-900">Perilaku Seksual</h3>
+                    </div>
+                </div>
+
+                <p class="text-gray-600 text-base leading-relaxed mb-6">
+                    Tindakan atau aktivitas yang dilakukan seseorang yang berkaitan dengan seksualitas.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <p class="font-semibold text-gray-800 mb-3">Penting untuk diketahui:</p>
+                        <div class="space-y-2">
+                            <div class="flex items-start p-3 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
+                                <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                                <span class="text-sm text-gray-700">Perilaku seksual tidak selalu mencerminkan identitas gender atau orientasi seksual</span>
+                            </div>
+                            <div class="flex items-start p-3 bg-gradient-to-r from-teal-50 to-emerald-50 rounded-xl">
+                                <div class="w-2 h-2 bg-teal-500 rounded-full mr-3 mt-2"></div>
+                                <span class="text-sm text-gray-700">Setiap orang punya pilihan untuk melakukan atau tidak melakukan aktivitas seksual</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Importance Section -->
+            <div class="bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-600 p-8 rounded-3xl shadow-2xl text-white relative overflow-hidden opacity-0 animate-fadeInUp" style="animation-delay: 0.8s;">
+                <div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent"></div>
+                <div class="relative z-10">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center shadow-lg">
+                            <i class="fas fa-lightbulb text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <span class="text-sm font-bold text-emerald-200 uppercase tracking-wide">Mengapa Penting?</span>
+                            <h3 class="text-2xl font-bold text-white">Membangun Pemahaman</h3>
+                        </div>
+                    </div>
+
+                    <p class="text-emerald-100 text-base leading-relaxed mb-6">
+                        Dengan memahami perbedaan ini, kita bisa:
+                    </p>
+
+                    <div class="grid md:grid-cols-3 gap-4 mb-6">
+                        <div class="flex items-center p-4 bg-white/10 backdrop-blur-sm rounded-xl">
+                            <i class="fas fa-check-circle text-emerald-300 mr-3"></i>
+                            <span class="text-white text-sm">Menghindari kesalahpahaman</span>
+                        </div>
+                        <div class="flex items-center p-4 bg-white/10 backdrop-blur-sm rounded-xl">
+                            <i class="fas fa-heart text-emerald-300 mr-3"></i>
+                            <span class="text-white text-sm">Membangun sikap saling menghargai</span>
+                        </div>
+                        <div class="flex items-center p-4 bg-white/10 backdrop-blur-sm rounded-xl">
+                            <i class="fas fa-shield-alt text-emerald-300 mr-3"></i>
+                            <span class="text-white text-sm">Mengurangi stigma dan diskriminasi</span>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <p class="text-white/90 text-base leading-relaxed">
+                            Setiap remaja berhak mendapatkan edukasi yang sehat, netral, dan berdasarkan ilmu.
+                        </p>
+                        <p class="text-emerald-200 font-semibold text-lg mt-2">
+                            Yuk, jadi generasi yang terbuka dan peduli satu sama lain! 🌈
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .group:hover .group-hover\:scale-110 {
+            transform: scale(1.1);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
 </section>
 
     <!-- Education Section -->
